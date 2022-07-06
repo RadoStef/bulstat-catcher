@@ -89,6 +89,7 @@ function activateTaco() {
     resultEl.innerHTML = companiesArray[20];
 }
 
+//some SO code, for copy to clipboard buton :)
 function CopyToClipboard(containerid) {
     if (document.selection) {
       var range = document.body.createTextRange();
