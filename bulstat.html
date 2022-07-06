@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bulstat.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>Намери булстат на избрана фирма.</title>
+</head>
+<body>
+    <h1>За да извадиш булстат, кликни на бутон с името на желаната фирма.</h1>
+
+    <div class="container">
+
+        <div class="companies-wrapper">
+            <button id="metro" onclick="activateMetro()">МЕТРО</button>
+            <button id="metro" onclick="activateBilyana()">БИЛЯНА ГБХ</button>
+            <button id="metro" onclick="activateQuadrant()">КУАДРАНТ БЕВЪРИДЖИС</button>
+            <button id="metro" onclick="activateNolev()">НОЛЕВ</button>
+            <button id="metro" onclick="activateHelas()">ХЕЛАС ХЕМ</button>
+            <button id="metro" onclick="activateMiko()">МИКО 12</button>
+            <button id="metro" onclick="activateKriciya()">КРИЦИЯ</button>
+            <button id="metro" onclick="activateLobby()">ЛОББИ</button>
+            <button id="metro" onclick="activateTornado()">ТОРНАДО КОМЕРС</button>
+            <button id="metro" onclick="activateKonsumativ()">КОНСУМАТИВ</button>
+            <button id="metro" onclick="activateOpakovka()">ОПАКОВКА</button>
+            <button id="metro" onclick="activateMagre()">МАГРЕ</button>
+            <button id="metro" onclick="activateBultex()">БУЛТЕКС 99</button>
+            <button id="metro" onclick="activateNectar()">НЕКТАР НАТУРА</button>
+            <button id="metro" onclick="activateDenito()">ДЕНИТО</button>
+            <button id="metro" onclick="activatePobeda()">ПОБЕДА</button>
+            <button id="metro" onclick="activateBelina()">БЕЛИНА ЕКО</button>
+            <button id="metro" onclick="activateBoshnakov()">БОШНАКОВ</button>
+            <button id="metro" onclick="activateFroneri()">ФРОНЕРИ</button>
+            <button id="metro" onclick="activatePilko()">ПИЛКО</button>
+            <button id="metro" onclick="activatePilko()">ТАКО ФУУДС</button>
+        </div>
+
+    </div>
+    
+        <div class="container">
+            <div class="result-wrapper">
+                <div id="result-el">РЕЗУЛТАТ</div> <button id="button1" onclick="CopyToClipboard('result-el')">Копирай Булстат</button>
+            </div>
+        </div>
+    
+
+    <script src="bulstat.js"></script>
+</body>
+</html>
